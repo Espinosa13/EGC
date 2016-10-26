@@ -1,7 +1,8 @@
 # -*- encoding: utf-8 -*-
+import Math
 
 def resta(i, j):
-    return i-j
+    return Math.resta(i,j)
 
 if __name__=="__main__":
     if resta(8,6) == 2:
