@@ -5,8 +5,8 @@ def resta(i, j):
     return Math.resta(i,j)
 
 def suma(x, y):
-    r = y-x
-    return r
+    result = x + y
+    return result
 
 if __name__=="__main__":
     if resta(8,6) == 2:
