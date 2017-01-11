@@ -15,7 +15,7 @@ if __name__=="__main__":
     else:
         print("Incorrecto segunda prueba")
 
-    if resta(-3, 5) == -8:
+    if resta(-3, 4) == -8:
         print("Correcto tercera prueba")
     else:
         print("Incorrecto tercera prueba")
