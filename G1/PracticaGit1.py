@@ -4,6 +4,9 @@ import Math
 def resta(i, j):
     return Math.resta(i,j)
 
+def suma(x, y):
+    return x+y
+
 if __name__=="__main__":
     if resta(8,6) == 2:
         print("Correcto primera prueba")
@@ -16,6 +19,11 @@ if __name__=="__main__":
         print("Incorrecto segunda prueba")
 
     if resta(-3, 4) == -8:
+        print("Correcto tercera prueba")
+    else:
+        print("Incorrecto tercera prueba")
+
+    if suma(2, 2) == 4:
         print("Correcto tercera prueba")
     else:
         print("Incorrecto tercera prueba")
